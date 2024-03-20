@@ -64,4 +64,9 @@ public class Main {
         if (triangulo.esEscaleno()) {
             System.out.println("El triángulo es escaleno");
         } else {
-            System.out.println("El tri
+            System.out.println("El triángulo no es escaleno");
+        }
+
+        scanner.close();
+    }
+}
