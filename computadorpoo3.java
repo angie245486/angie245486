@@ -5,26 +5,26 @@ public class COMPUTADOR
 
 {
     //atributos
-    String monitor;
-    String teclado;
-    String mouse;
-    String torre;
-    String marca;
+
+    String marca1;
+    String marca2;
+    String marca3;
+    String marca4;
     String procesador;
     String pulgadas;
     String discoduro;
     
     
     //metodo constructor
-    public COMPUTADOR(String monitor,String teclado, String mouse ,String torre)
+    public COMPUTADOR (String marca1,String marca2,String marca3,String marca4,String procesador,String pulgadas,String discoduro)
     {
-        this.monitor= marca;
-        this.monitor= pulgadas;
-        this.mouse= marca;
-        this.teclado= marca;
-        this.torre=discoduro;
-        this.torre=marca;
-        this.torre=procesador;
+        this.marca1= "Asus";
+        this.pulgadas="17";
+        this.marca2= "Cyrbetel";
+        this.marca3= "Corsair";
+        this.discoduro="SSD";
+        this.marca4="intel";
+        this.procesador="celeron";
         
                 
         
@@ -32,13 +32,13 @@ public class COMPUTADOR
     
     public void mostrardatos ()
     {
-        System.out.println("la marca del monitor es: "+monitor+marca);
-        System.out.println("Las pulgadas del monitor: "+monitor+pulgadas);
-        System.out.println("la marca del teclado es: "+teclado+marca);
-        System.out.println("la marca del mouse es : "+mouse+marca);
-        System.out.println("la marca de la torre es: "+torre+marca);
-        System.out.println("el proc de la torre es: "+torre+procesador);
-        System.out.println("el disco duro de la torre es: "+torre+discoduro);
+        System.out.println("la marca del monitor es: "+marca1);
+        System.out.println("Las pulgadas del monitor: "+pulgadas);
+        System.out.println("la marca del teclado es: "+marca2);
+        System.out.println("la marca del mouse es : "+marca3);
+        System.out.println("la marca de la torre es: "+marca4);
+        System.out.println("el proc de la torre es: "+procesador);
+        System.out.println("el disco duro de la torre es: "+discoduro);
         
     }
    
