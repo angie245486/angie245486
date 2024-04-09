@@ -1,7 +1,7 @@
 
-package CLASESYOBJETOS;
+package clasesyobjetoss;
 
-public class Persona
+public class Personas
 {
     //atributos
     String nombre;
@@ -11,7 +11,7 @@ public class Persona
     String direccion;
     
     //metodo constructor
-    public Persona (String nombre, int edad,String carrera, String telefono, String direccion)
+    public Personas (String nombre, int edad, String carrera, String telefono, String direccion)
     {
             this.nombre = nombre;
             this.edad= edad;
