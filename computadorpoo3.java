@@ -1,7 +1,8 @@
 
 package CLASESYOBJETOS;
 
-public class computador 
+public class COMPUTADOR 
+
 {
     //atributos
     String monitor;
@@ -15,7 +16,7 @@ public class computador
     
     
     //metodo constructor
-    public computador(String monitor,String teclado, String mouse ,String torre)
+    public COMPUTADOR(String monitor,String teclado, String mouse ,String torre)
     {
         this.monitor= marca;
         this.monitor= pulgadas;
