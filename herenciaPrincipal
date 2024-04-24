@@ -1,0 +1,13 @@
+
+package Herencia;
+
+public class Principal 
+{
+    public static void main(String[]args)
+    {
+        Estudiante estudiante = new Estudiante( "Angie","Rincon", 19 , 25554 ,5);
+        
+        estudiante.mostrarDatos();
+    }
+    
+}
