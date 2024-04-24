@@ -1,0 +1,64 @@
+
+package COMPUTADOR;
+
+public class Computador 
+{
+    //atributos 
+    private String Marca;
+    private String procesador;
+    private int RAM;
+    private double discoduro;
+    private float precio;
+    private int pantalla;
+
+    public String getMarca() {
+        return Marca;
+    }
+
+    public void setMarca(String Marca) {
+        this.Marca = Marca;
+    }
+
+    public String getProcesador() {
+        return procesador;
+    }
+
+    public void setProcesador(String procesador) {
+        this.procesador = procesador;
+    }
+
+    public int getRAM() {
+        return RAM;
+    }
+
+    public void setRAM(int RAM) {
+        this.RAM = RAM;
+    }
+
+    public double getDiscoduro() {
+        return discoduro;
+    }
+
+    public void setDiscoduro(double discoduro) {
+        this.discoduro = discoduro;
+    }
+
+    public double getPrecio() {
+        return precio;
+    }
+
+    public void setPrecio(float precio) {
+        this.precio = precio;
+    }
+
+    public int getPantalla() {
+        return pantalla;
+    }
+
+    public void setPantalla(int pantalla) {
+        this.pantalla = pantalla;
+    }
+    
+    
+    
+}
