@@ -1,0 +1,29 @@
+
+package COMPUTADOR;
+
+public class Computador2 
+{
+    public static void main (String []args)
+    {
+        Computador objeto1 = new Computador ();
+        
+        objeto1.setMarca("ASUS");
+        System.out.println("La marca del computador es: "+objeto1.getMarca());
+        
+        objeto1.setProcesador("intel core 5");
+        System.out.println("El procesador del computador es: "+objeto1.getProcesador());
+        
+        objeto1.setRAM(8);
+        System.out.println("La RAM del computador es: "+objeto1.getRAM());
+        
+        objeto1.setDiscoduro(128);
+        System.out.println("El disco duro del computador es: "+objeto1.getDiscoduro());
+        
+        objeto1.setPrecio(2990000);
+        System.out.println("el precio del computador es: "+objeto1.getPrecio());
+        
+        objeto1.setPantalla(15);
+        System.out.println("La pantalla del computador es: "+objeto1.getPantalla());
+    }
+    
+}
