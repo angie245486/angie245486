@@ -1,0 +1,20 @@
+
+package maleta_de_viaje;
+
+public class maleta2 
+{
+    public static void main (String []args)
+    {
+        maleta_de_viaje objeto1 = new maleta_de_viaje();
+        
+        objeto1.setMarca("totto");
+        System.out.println("la marca de la maleta es: "+objeto1.getMarca());
+        
+        objeto1.setDescripcion("");
+        System.out.println("la descripcion de la maleta es: "+objeto1.getDescripcion());
+        
+        objeto1.setPrecio(500000);
+        System.out.println("el precio de la maleta es:  "+objeto1.getPrecio());
+    }
+    
+}
