@@ -1,0 +1,28 @@
+
+package Herencia;
+
+public class Estudiante extends Persona {
+    private int codigoEstudiante;
+    private float notaFinal;
+    
+    //constructor
+
+    public Estudiante(String Nombre, String Apellido, int Edad, int codigoEstudiante, float notaFinal) {
+        super(Nombre, Apellido, Edad);
+        this.codigoEstudiante = codigoEstudiante;
+        this.notaFinal = notaFinal;
+    }
+    
+    public void mostrarDatos()
+    {
+        System.out.println("Nombre: "+getNombre()+
+                "\nApellido:  "+getApellido()+
+                "\nEdad: "+getEdad()+
+                "\nCodigo Estudiante: "+codigoEstudiante+
+                "\nNota Final: "+notaFinal);
+    }
+    
+    
+    
+    
+}
