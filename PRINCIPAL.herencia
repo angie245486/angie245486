@@ -1,0 +1,24 @@
+
+package EQUIPO;
+
+public class Principal
+{
+    public static void main (String []args)
+    {
+        Equipo e2 = new Equipo ("Angie","Rincon",1024472851);
+        e2.mostrarDatos();
+        
+        Jugador j2=new Jugador ("Felipe",1550000);
+        
+        j2.mostrarDatos2();
+        
+        Entrenador E3= new Entrenador ("Duban",2600000);
+        
+        E3.mostrarDatos3();
+        
+        Medico M4= new Medico ("Juan",2530000);
+        
+        M4.mostrarDatos4();
+    }
+    
+}
