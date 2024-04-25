@@ -1,0 +1,29 @@
+
+package EQUIPO;
+
+public class Jugador
+{
+    
+    private String Posicion;
+    private float Salario;
+
+    public Jugador(String Posicion, float Salario) {
+        this.Posicion = Posicion;
+        this.Salario = Salario;
+    }
+
+    public String getPosicion() {
+        return Posicion;
+    }
+
+    public float getSalario() {
+        return Salario;
+    }
+    
+    public void mostrarDatos2(){
+        
+        System.out.println("----JUGADOR----"+"\nPosicion: "+getPosicion()+
+                "\nSalario: "+getSalario());
+    }
+}
+
