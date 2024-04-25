@@ -1,0 +1,34 @@
+
+package EQUIPO;
+
+public class Entrenador 
+{
+   private String Profesion;
+   private float Salario;
+
+    public Entrenador(String Profesion, float Salario) {
+        this.Profesion = Profesion;
+        this.Salario = Salario;
+    }
+
+    public String getProfesion() {
+        return Profesion;
+    }
+
+    public float getSalario() {
+        return Salario;
+    }
+   
+   
+    public void mostrarDatos3(){
+        
+        System.out.println("----ENTRENADOR----"+"\nProfesion: "+getProfesion()+
+                "\nSalario: "+getSalario());
+    }
+    
+   
+   
+   
+    
+    
+}
