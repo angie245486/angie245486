@@ -1,0 +1,28 @@
+
+package EQUIPO;
+
+public class Medico 
+{
+    private String Especialidad;
+    private float Salario;
+
+    public Medico(String Especialidad, float Salario) {
+        this.Especialidad = Especialidad;
+        this.Salario = Salario;
+    }
+
+    public String getEspecialidad() {
+        return Especialidad;
+    }
+
+    public float getSalario() {
+        return Salario;
+    }
+    
+    
+    public void mostrarDatos4(){
+        
+        System.out.println("----MEDICO----"+"\nEspecialidad: "+getEspecialidad()+
+                "\nSalario: "+getSalario());
+    }
+}
