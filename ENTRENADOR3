@@ -3,12 +3,32 @@ package EQUIPO;
 
 public class Entrenador 
 {
+    
+    private String Nombre;
+    private String Apellido;
+    private int Cedula;
+    
    private String Profesion;
    private float Salario;
 
-    public Entrenador(String Profesion, float Salario) {
+    public Entrenador(String Nombre, String Apellido, int Cedula, String Profesion, float Salario) {
+        this.Nombre = Nombre;
+        this.Apellido = Apellido;
+        this.Cedula = Cedula;
         this.Profesion = Profesion;
         this.Salario = Salario;
+    }
+
+    public String getNombre() {
+        return Nombre;
+    }
+
+    public String getApellido() {
+        return Apellido;
+    }
+
+    public int getCedula() {
+        return Cedula;
     }
 
     public String getProfesion() {
@@ -18,11 +38,15 @@ public class Entrenador
     public float getSalario() {
         return Salario;
     }
-   
+
    
     public void mostrarDatos3(){
         
-        System.out.println("----ENTRENADOR----"+"\nProfesion: "+getProfesion()+
+        System.out.println("----ENTRENADOR----"+
+                "\nNombre: "+getNombre()+
+                "\nApellido: "+getApellido()+
+                "\nCedula: "+getCedula()+ 
+                "\nProfesion: "+getProfesion()+
                 "\nSalario: "+getSalario());
     }
     
