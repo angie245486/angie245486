@@ -4,12 +4,31 @@ package EQUIPO;
 public class Jugador
 {
     
+    private String Nombre;
+    private String Apellido;
+    private int Cedula;
+    
     private String Posicion;
     private float Salario;
 
-    public Jugador(String Posicion, float Salario) {
+    public Jugador(String Nombre, String Apellido, int Cedula, String Posicion, float Salario) {
+        this.Nombre = Nombre;
+        this.Apellido = Apellido;
+        this.Cedula = Cedula;
         this.Posicion = Posicion;
         this.Salario = Salario;
+    }
+
+    public String getNombre() {
+        return Nombre;
+    }
+
+    public String getApellido() {
+        return Apellido;
+    }
+
+    public int getCedula() {
+        return Cedula;
     }
 
     public String getPosicion() {
@@ -19,10 +38,15 @@ public class Jugador
     public float getSalario() {
         return Salario;
     }
-    
+
+   
     public void mostrarDatos2(){
         
-        System.out.println("----JUGADOR----"+"\nPosicion: "+getPosicion()+
+        System.out.println("----JUGADOR----"+
+                "\nNombre: "+getNombre()+
+                "\nApellido: "+getApellido()+
+                "\nCedula: "+getCedula()+ 
+                "\nPosicion: "+getPosicion()+
                 "\nSalario: "+getSalario());
     }
 }
