@@ -1,0 +1,59 @@
+package Medio_de_transporte;
+public class PICAP 
+{
+       
+    private String Marca;
+    private String Modelo;
+    private int Cilindraje;
+    private String color;
+    private int capacidad;
+    private int capacidad1;
+
+    public PICAP(String Marca, String Modelo, int Cilindraje, String color, int capacidad, int capacidad1) {
+        this.Marca = Marca;
+        this.Modelo = Modelo;
+        this.Cilindraje = Cilindraje;
+        this.color = color;
+        this.capacidad = capacidad;
+        this.capacidad1 = capacidad1;
+    }
+
+    public String getMarca() {
+        return Marca;
+    }
+
+    public String getModelo() {
+        return Modelo;
+    }
+
+    public int getCilindraje() {
+        return Cilindraje;
+    }
+
+    public String getColor() {
+        return color;
+    }
+
+    public int getCapacidad() {
+        return capacidad;
+    }
+
+    public int getCapacidad1() {
+        return capacidad1;
+    }
+    
+    
+    
+    
+    public void mostrarDatos()
+    {
+        System.out.println("---- PICAP----\n"+"La marca de la MOTO es:"+getMarca());
+        System.out.println("El modelo del MOTO es:"+getModelo());
+        System.out.println("El cilindraje del MOTO es:"+getCilindraje());
+        System.out.println("El color del MOTO es:"+getColor());
+        System.out.println("La capacidad del MOTO es:"+getCapacidad());
+        System.out.println("La  del MOTO es:"+getCapacidad1());
+    }
+    
+    
+}
