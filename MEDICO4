@@ -3,12 +3,31 @@ package EQUIPO;
 
 public class Medico 
 {
+    
+    private String Nombre;
+    private String Apellido;
+    private int Cedula;
     private String Especialidad;
     private float Salario;
 
-    public Medico(String Especialidad, float Salario) {
+    public Medico(String Nombre, String Apellido, int Cedula, String Especialidad, float Salario) {
+        this.Nombre = Nombre;
+        this.Apellido = Apellido;
+        this.Cedula = Cedula;
         this.Especialidad = Especialidad;
         this.Salario = Salario;
+    }
+
+    public String getNombre() {
+        return Nombre;
+    }
+
+    public String getApellido() {
+        return Apellido;
+    }
+
+    public int getCedula() {
+        return Cedula;
     }
 
     public String getEspecialidad() {
@@ -20,9 +39,15 @@ public class Medico
     }
     
     
+
+    
     public void mostrarDatos4(){
         
-        System.out.println("----MEDICO----"+"\nEspecialidad: "+getEspecialidad()+
+        System.out.println("----MEDICO----"+
+                "\nNombre: "+getNombre()+
+                "\nApellido: "+getApellido()+
+                "\nCedula: "+getCedula()+ 
+                "\nEspecialidad: "+getEspecialidad()+
                 "\nSalario: "+getSalario());
     }
 }
