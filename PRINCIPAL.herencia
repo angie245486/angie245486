@@ -8,15 +8,15 @@ public class Principal
         Equipo e2 = new Equipo ("Angie","Rincon",1024472851);
         e2.mostrarDatos();
         
-        Jugador j2=new Jugador ("Felipe",1550000);
+        Jugador j2=new Jugador ("KEVIN","CORONADO",1254786521,"Delantero",2550000);
         
         j2.mostrarDatos2();
         
-        Entrenador E3= new Entrenador ("Duban",2600000);
+        Entrenador E3= new Entrenador ("ALEXANDER","RINCON",1212151125,"Entrenador",3600000);
         
         E3.mostrarDatos3();
         
-        Medico M4= new Medico ("Juan",2530000);
+        Medico M4= new Medico ("SNEYDER","MORENO",526489654,"Medico",2800000);
         
         M4.mostrarDatos4();
     }
