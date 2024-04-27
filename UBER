@@ -1,0 +1,65 @@
+package Medio_de_transporte;
+public class UBER 
+{
+    
+    private String Marca;
+    private String Modelo;
+    private int Cilindraje;
+    private String color;
+    private int Capacidad;
+    private int Capacidad1;
+
+    public UBER(String Marca, String Modelo, int Cilindraje, String color, int Capacidad, int Capacidad1) {
+        this.Marca = Marca;
+        this.Modelo = Modelo;
+        this.Cilindraje = Cilindraje;
+        this.color = color;
+        this.Capacidad = Capacidad;
+        this.Capacidad1 = Capacidad1;
+    }
+
+    public String getMarca() {
+        return Marca;
+    }
+
+    public String getModelo() {
+        return Modelo;
+    }
+
+    public int getCilindraje() {
+        return Cilindraje;
+    }
+
+    public String getColor() {
+        return color;
+    }
+
+    public int getCapacidad() {
+        return Capacidad;
+    }
+
+    public int getCapacidad1() {
+        return Capacidad1;
+    }
+    
+    
+    
+    
+    
+    
+    
+    
+    public void mostrarDatos()
+    {
+        System.out.println("----UBER----\n"+"La marca del UBER es:"+getMarca());
+        System.out.println("El modelo del UBER es:"+getModelo());
+        System.out.println("El cilindraje del UBER es:"+getCilindraje());
+        System.out.println("El color del UBER es:"+getColor());
+        System.out.println("La capacidad del UBER es:"+getCapacidad());
+        System.out.println("La  del UBER es:"+getCapacidad1());
+    }
+    
+    
+    
+}
+
