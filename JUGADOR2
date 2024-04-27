@@ -7,7 +7,6 @@ public class Jugador
     private String Nombre;
     private String Apellido;
     private int Cedula;
-    
     private String Posicion;
     private float Salario;
 
@@ -50,4 +49,3 @@ public class Jugador
                 "\nSalario: "+getSalario());
     }
 }
-
