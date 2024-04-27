@@ -1,0 +1,23 @@
+
+package Medio_de_transporte;
+
+public class Principal 
+{
+    public static void main (String []args)
+    {
+        SITP s1= new SITP ("Scania","2017",4600,"AZUL",50,0);
+        s1.mostrarDatos();
+    
+        TAXI t1= new TAXI ("Hyundai","2020",1248,"AMARILLO",4,"0");
+        t1.mostrarDatos();
+   
+        UBER u1= new UBER ("Kia","2019",1248,"NEGRO",4,0);
+        u1.mostrarDatos();
+    
+        PICAP p1= new PICAP ("Suzuki","2024",249,"ROJO",1,0);
+        p1.mostrarDatos();
+        
+        
+    }
+    
+}
