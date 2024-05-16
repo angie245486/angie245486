@@ -1,0 +1,16 @@
+
+package BIBLIOTECA;
+
+public class Libros2 extends LIBROS
+{
+    public Libros2() {
+        super("1984", "George Orwell", 1949, "Eric Arthur Blair", "Distopía");
+    }
+}
+    
+    
+
+
+
+    
+
