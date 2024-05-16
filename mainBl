@@ -1,0 +1,75 @@
+
+
+package BIBLIOTECA;
+
+import java.util.Scanner;
+
+public class Main {
+    public static void main(String[] args) {
+        Scanner lectura = new Scanner(System.in);
+        String Nombre, Apellido, Codigo, disponibles;
+        int carnet;
+
+        System.out.println("\n  ====== BIBLIOTECA ======  \n ");
+
+        System.out.println("los estudiantes de la institucion tienen el derecho a sacar los libros presencial y virtual.");
+        System.out.println("los profesores de la institucion tienen el derecho a sacar los libros presencial, virtual y documentos que solo ellos tienen acceso. ");
+        System.out.println("los administrativos de la institucion tienen el derecho a sacar los libros presencial, virtual y documentos que estan bajo privacidad que solo ellos pueden acceder. ");
+        System.out.println("los estudiantes externos solo pueden sacar los libros virtualmente y documentos que solo puedes ser prestados en pdf. \n");
+
+        System.out.println("\nSELECIONA LA OPCION EN LA CUAL DESEAS INGRESAR: \n");
+
+        System.out.println("1. ESTUDIANTES ");
+        System.out.println("2. PROFESORES");
+        System.out.println("3. ADMINISTRATIVOS");
+        System.out.println("4. EXTERNOS");
+        System.out.println("OPCION:  ");
+        int opcion = lectura.nextInt();
+
+        System.out.println("\n INGRESE SUS DATOS: ");
+
+        System.out.println("Nombre: ");
+        Nombre = lectura.next();
+        System.out.println("Apellido: ");
+        Apellido = lectura.next();
+        System.out.println("Codigo: ");
+        Codigo = lectura.next();
+        
+        
+            
+        System.out.println("DIGITE SU NUMERO DE CARNET: ");
+        carnet = lectura.nextInt();
+        
+        
+        
+        
+
+        switch (opcion) {
+            case 1:
+                PERSONA1 P1 = new PERSONA1(Nombre, Apellido, Codigo, "ingenieria", "3", "software", "no tiene ningun libro de la biblioteca.");
+                P1.mostarDatos();
+                break;
+
+            case 2:
+                PERSONA2 P2 = new PERSONA2(Nombre, Apellido, Codigo, "gesion empresarial", "5", "Administracion de empresas", "tiene un libro de la biblioteca.");
+                P2.mostarDatos2();
+                break;
+
+            case 3:
+                PERSONA3 P3 = new PERSONA3(Nombre, Apellido, Codigo, "ingenieria", "6", "mecatronica", "no tiene ningun libro de la biblioteca.");
+                P3.mostarDatos2();
+                break;
+
+            case 4:
+                PERSONA4 P4 = new PERSONA4(Nombre, Apellido, Codigo, "Medicina", "5", "bioetica", "tiene un libro de la biblioteca.");
+                P4.mostarDatos2();
+                break;
+
+            case 5:
+                PERSONA5 P5 = new PERSONA5(Nombre, Apellido, Codigo, "Derecho", "7", "responsabilidad social", "tiene un libro de la biblioteca");
+                P5.mostarDatos2();
+                break;
+        }
+
+    }
+}
