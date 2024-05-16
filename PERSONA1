@@ -1,0 +1,92 @@
+
+package BIBLIOTECA;
+
+public class PERSONA1 
+{
+    private String Nombre;
+    private String Apellido;
+    private String Codigo;
+    private String Facultad;
+    private String Semestre;
+    private String Carrera;
+    private String Historial_prestamos;
+
+    public PERSONA1(String Nombre, String Apellido, String Codigo, String Facultad, String Semestre, String Carrera, String Historial_prestamos) {
+        this.Nombre = Nombre;
+        this.Apellido = Apellido;
+        this.Codigo = Codigo;
+        this.Facultad = Facultad;
+        this.Semestre = Semestre;
+        this.Carrera = Carrera;
+        this.Historial_prestamos = Historial_prestamos;
+    }
+
+    public String getNombre() {
+        return Nombre;
+    }
+
+    public void setNombre(String Nombre) {
+        this.Nombre = Nombre;
+    }
+
+    public String getApellido() {
+        return Apellido;
+    }
+
+    public void setApellido(String Apellido) {
+        this.Apellido = Apellido;
+    }
+
+    public String getCodigo() {
+        return Codigo;
+    }
+
+    public void setCodigo(String Codigo) {
+        this.Codigo = Codigo;
+    }
+
+    public String getFacultad() {
+        return Facultad;
+    }
+
+    public void setFacultad(String Facultad) {
+        this.Facultad = Facultad;
+    }
+
+    public String getSemestre() {
+        return Semestre;
+    }
+
+    public void setSemestre(String Semestre) {
+        this.Semestre = Semestre;
+    }
+
+    public String getCarrera() {
+        return Carrera;
+    }
+
+    public void setCarrera(String Carrera) {
+        this.Carrera = Carrera;
+    }
+
+    public String getHistorial_prestamos() {
+        return Historial_prestamos;
+    }
+
+    public void setHistorial_prestamos(String Historial_prestamos) {
+        this.Historial_prestamos = Historial_prestamos;
+    }
+    
+    
+    public void mostarDatos(){
+        
+        System.out.println ("Nombre: "+PERSONA1.this.getNombre()+
+                "Apellido: "+PERSONA1.this.getApellido()+
+                "codigo: "+PERSONA1.this.getCodigo()+
+                "Facultad: "+PERSONA1.this.getFacultad()+
+                "Semestre: "+PERSONA1.this.getSemestre()+
+                "Carrera: "+PERSONA1.this.getCarrera()+
+                "historial de prestamo: "+PERSONA1.this.getHistorial_prestamos());
+    }
+    
+}
