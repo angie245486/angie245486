@@ -1,0 +1,13 @@
+
+package BIBLIOTECA;
+
+
+public class Libros3 extends LIBROS
+{
+    public Libros3() {
+        super("El amor en los tiempos del cólera", "Gabriel García Márquez", 1985, "Gabriel García Márquez", "Realismo Mágico");
+    }
+}
+
+    
+
