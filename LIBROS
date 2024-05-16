@@ -1,0 +1,73 @@
+
+package BIBLIOTECA;
+
+public class LIBROS {
+    
+    private String titulo;
+    private String autor;
+    private int fechaEmision;
+    private String escritor;
+    private String categoria;
+
+    public LIBROS (String titulo, String autor, int fechaEmision, String escritor, String categoria) {
+        this.titulo = titulo;
+        this.autor = autor;
+        this.fechaEmision = fechaEmision;
+        this.escritor = escritor;
+        this.categoria = categoria;
+    }
+
+    public String getTitulo() {
+        return titulo;
+    }
+
+    public void setTitulo(String titulo) {
+        this.titulo = titulo;
+    }
+
+    public String getAutor() {
+        return autor;
+    }
+
+    public void setAutor(String autor) {
+        this.autor = autor;
+    }
+
+    public int getFechaEmision() {
+        return fechaEmision;
+    }
+
+    public void setFechaEmision(int fechaEmision) {
+        this.fechaEmision = fechaEmision;
+    }
+
+    public String getEscritor() {
+        return escritor;
+    }
+
+    public void setEscritor(String escritor) {
+        this.escritor = escritor;
+    }
+
+    public String getCategoria() {
+        return categoria;
+    }
+
+    public void setCategoria(String categoria) {
+        this.categoria = categoria;
+    }
+    
+
+    public void mostrarDetalles() {
+        System.out.println("Título: " + titulo);
+        System.out.println("Autor: " + autor);
+        System.out.println("Fecha de Emisión: " + fechaEmision);
+        System.out.println("Escritor: " + escritor);
+        System.out.println("Categoría: " + categoria);
+    }
+}
+
+
+
+    
+
